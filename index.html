@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anasayfa | sigortacenter</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px; /* Her sigorta türü arasında boşluk */
+        }
+
+        .container img {
+            margin-right: 20px; /* Görsel ile metin arasındaki boşluk */
+            animation: slidein 3s linear 1; /* Animasyonun bir kez çalışmasını sağlar */
+        }
+     
+        .container p {
+            font-style: oblique;
+            font-size: xx-large;
+            font-weight: bold;
+            text-align: justify;
+        }
+
+        h2 {
+            text-transform: capitalize;
+            animation: fadein 6s ease-in-out; /* Sigorta türü başlıklarına animasyon ekler */
+        }
+
+        @keyframes slidein {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+            
+        }
+    </style>
+</head>
+
+<body style="background-color: antiquewhite;">
+    <header>
+        <h1
+            style="background-color: rgb(146, 105, 105); text-align:center;padding: 15px;border:solid;text-transform:uppercase;text-shadow: 2px 2px 4px rgba(0,0,0,0.5);box-shadow: 5px 5px 10px gray;border-radius: 15px;font-family:'Courier New', Courier, monospace">
+            sigorta center</h1>
+    </header>
+
+    <nav>
+        <h1
+            style="text-align:center;text-shadow: #FC0 1px 0 10px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 3px;text-transform:uppercase;font-size:xx-large">
+            sigorta türleri</h1>
+    </nav>
+
+    <ul>
+        <h2>trafik sigortası</h2>
+        <li class="container">
+            <img src="https://www.allianz.com.tr/tr_TR/urunler/arac-sigortalari/zorunlu-trafik-sigortasi/_jcr_content/root/parsys/wrapper_1968395554/wrapper/multi_column_grid/grid-0-par/image.img.75.640.jpeg/1685017941154/shutterstock-133751399-(1).jpeg" width="400" height="300" alt="">
+            <p>Trafik sigortası, aracınızla üçüncü şahıslara verebileceğiniz zararları teminat altına alır.</p>
+        </li>
+
+        <h2>cep telefonu sigortası</h2>
+        <li class="container">
+            <img src="https://www.magdeburger.com.tr/upload/cache/b209347b908aa246906d623c6106d401dea402fc.webp" width="400" height="300" alt="">
+            <p>Cep Telefonu sigortası, telefonunuzun çalınması veya zarar görmesi durumunda sizi güvence altına alır.</p>
+        </li>
+
+        <h2>kasko sigortası</h2>
+        <li class="container">
+            <img src="https://www.pttsigorta.com/assets/images/kasko.png" width="400" height="300" alt="">
+            <p>Kasko sigortası, aracınızın başına gelebilecek kazalar, hırsızlık gibi durumlarda maddi kayıplarınızı karşılar.</p>
+        </li>
+
+        <h2>tamamlayıcı sağlık sigortası</h2>
+        <li class="container">
+            <img src="https://www.ziraatbank.com.tr/PublishingImages/Subpage/bireysel/sigortaemeklilik/tamamlayici_saglik_sigortasi.png" width="400" height="300" alt="">
+            <p>Tamamlayıcı sağlık sigortası, SGK anlaşmalı özel hastanelerde fark ücreti ödemeden tedavi olmanızı sağlar.</p>
+        </li>
+
+        <h2>özel sağlık sigortası</h2>
+        <li class="container">
+            <img src="https://www.ziraatbank.com.tr/PublishingImages/Subpage/bireysel/sigortaemeklilik/Saglik_Sigortasi.jpg" width="400" height="300" alt="">
+            <p>Özel Sağlık sigortası, kişiye özel sağlık ihtiyaçlarını karşılayan geniş kapsamlı bir sigorta türüdür.</p>
+        </li>
+
+        <h2>dask</h2>
+        <li class="container">
+            <img src="https://zeynepyargic.av.tr/wp-content/uploads/2023/02/dask-1024x793.png" width="400" height="300" alt="">
+            <p>DASK, olası bir depremde konutunuzu güvence altına alan zorunlu bir sigorta türüdür.</p>
+        </li>
+
+        <h2>konut sigortası</h2>
+        <li class="container">
+            <img src="https://www.sigortasu.com/wp-content/uploads/2022/02/konut-sigortasi-300x206.jpg" width="400" height="300" alt="">
+            <p>Konut sigortası, evinizi ve içindeki eşyaları yangın, hırsızlık, su baskını gibi risklere karşı korur.</p>
+        </li>
+
+        <h2>evim güvende sigortası</h2>
+        <li class="container">
+            <img src="https://besniguncelcom.teimg.com/crop/1280x720/besniguncel-com/uploads/2024/05/10-1.jpg" width="400" height="300" alt="">
+            <p>Evim Güvende sigortası, evinizi ve içindeki eşyaları çeşitli risklere karşı koruma altına alır.</p>
+        </li>
+
+        <h2>evcil hayvan sigortası</h2>
+        <li class="container">
+            <img src="https://www.selfsigorta.com/wp-content/uploads/2020/09/evcil-hayvan-sigortasi-1024x683.jpg" width="400" height="300" alt="">
+            <p>Evcil Hayvan sigortası, sevimli dostlarınızın sağlığını güvence altına alır.</p>
+        </li>
+
+        <h2>seyahat sigortası</h2>
+        <li class="container">
+            <img src="https://www.tanyildizisigorta.com/wp-content/uploads/1588149007.jpeg" width="400" height="300" alt="">
+            <p>Seyahat sigortası, yurt içi ve yurt dışı seyahatlerinizde beklenmedik durumlar için güvence sağlar.</p>
+        </li>
+    </ul>
+</body>
+
+</html>
